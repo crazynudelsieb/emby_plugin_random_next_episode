@@ -1,0 +1,78 @@
+{
+  "format": 1,
+  "restore": {
+    "/mnt/c/git/emby_tv_plugin/NextEpisodePlugin.csproj": {}
+  },
+  "projects": {
+    "/mnt/c/git/emby_tv_plugin/NextEpisodePlugin.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/mnt/c/git/emby_tv_plugin/NextEpisodePlugin.csproj",
+        "projectName": "NextEpisodePlugin",
+        "projectPath": "/mnt/c/git/emby_tv_plugin/NextEpisodePlugin.csproj",
+        "packagesPath": "/home/adm_dondoe/.nuget/packages/",
+        "outputPath": "/mnt/c/git/emby_tv_plugin/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/mnt/c/git/emby_tv_plugin/nuget.config",
+          "/home/adm_dondoe/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "MediaBrowser.Server.Core": {
+              "target": "Package",
+              "version": "[4.8.11, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "System.Memory": {
+              "target": "Package",
+              "version": "[4.5.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.414/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

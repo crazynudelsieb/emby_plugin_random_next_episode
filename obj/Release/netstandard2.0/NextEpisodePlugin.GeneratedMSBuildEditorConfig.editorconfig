@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = NextEpisodePlugin
+build_property.ProjectDir = /mnt/c/git/emby_tv_plugin/
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 

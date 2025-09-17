@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Next Episode Plugin</title>
+    <meta charset="utf-8">
+</head>
+<body>
+    <div data-role="page" class="page type-interior pluginConfigurationPage NextEpisodePluginConfigurationPage">
+        <div data-role="content">
+            <div class="content-primary">
+                <form class="NextEpisodePluginConfigurationForm">
+                    <div class="inputContainer">
+                        <label class="inputLabel inputLabelUnfocused" for="chkEnableRandomSelection">Enable Random Selection:</label>
+                        <input is="emby-checkbox" type="checkbox" id="chkEnableRandomSelection" />
+                        <div class="fieldDescription">Enable random selection of started TV shows</div>
+                    </div>
+                    
+                    <div class="inputContainer">
+                        <label class="inputLabel inputLabelUnfocused" for="chkShowButtonOnHomepage">Show Button on Homepage:</label>
+                        <input is="emby-checkbox" type="checkbox" id="chkShowButtonOnHomepage" />
+                        <div class="fieldDescription">Show the "Play Next Episode" button on the homepage</div>
+                    </div>
+                    
+                    <br />
+                    <button is="emby-button" type="submit" class="raised button-submit block">
+                        <span>Save</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        (function () {
+            var pluginId = "8B8C4A12-3F4E-4D5A-9B6C-7E8F9A0B1C2D";
+
+            $('.NextEpisodePluginConfigurationPage').on('pageshow', function () {
+                var page = this;
+                ApiClient.getPluginConfiguration(pluginId).then(function (config) {
+                    $('#chkEnableRandomSelection', page).checked(config.EnableRandomSelection || false);
+                    $('#chkShowButtonOnHomepage', page).checked(config.ShowButtonOnHomepage || false);
+                });
+            });
+
+            $('.NextEpisodePluginConfigurationForm').on('submit', function () {
+                Dashboard.showLoadingMsg();
+
+                var form = this;
+                ApiClient.getPluginConfiguration(pluginId).then(function (config) {
+                    config.EnableRandomSelection = $('#chkEnableRandomSelection', form).checked();
+                    config.ShowButtonOnHomepage = $('#chkShowButtonOnHomepage', form).checked();
+
+                    ApiClient.updatePluginConfiguration(pluginId, config).then(Dashboard.processPluginConfigurationUpdateResult);
+                });
+
+                return false;
+            });
+        })();
+    </script>
+</body>
+</html>

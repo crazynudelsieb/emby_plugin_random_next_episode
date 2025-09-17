@@ -1,0 +1,15 @@
+C:/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.csproj.AssemblyReference.cache
+C:/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.GeneratedMSBuildEditorConfig.editorconfig
+C:/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.AssemblyInfoInputs.cache
+C:/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.AssemblyInfo.cs
+C:/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.csproj.CoreCompileInputs.cache
+/mnt/c/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.csproj.AssemblyReference.cache
+/mnt/c/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.GeneratedMSBuildEditorConfig.editorconfig
+/mnt/c/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.AssemblyInfoInputs.cache
+/mnt/c/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.AssemblyInfo.cs
+/mnt/c/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.csproj.CoreCompileInputs.cache
+/mnt/c/git/emby_tv_plugin/bin/Debug/netstandard2.0/NextEpisodePlugin.deps.json
+/mnt/c/git/emby_tv_plugin/bin/Debug/netstandard2.0/NextEpisodePlugin.dll
+/mnt/c/git/emby_tv_plugin/bin/Debug/netstandard2.0/NextEpisodePlugin.pdb
+/mnt/c/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.dll
+/mnt/c/git/emby_tv_plugin/obj/Debug/netstandard2.0/NextEpisodePlugin.pdb
