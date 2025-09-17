@@ -10,6 +10,9 @@ using MediaBrowser.Model.Users;
 
 namespace NextEpisodePlugin.Services
 {
+    /// <summary>
+    /// Core service for finding next episodes from partially watched TV series
+    /// </summary>
     public class NextEpisodeService
     {
         private readonly ILibraryManager _libraryManager;
@@ -25,6 +28,11 @@ namespace NextEpisodePlugin.Services
             _logger = logger;
         }
 
+        /// <summary>
+        /// Gets a random next episode from user's partially watched series
+        /// </summary>
+        /// <param name="userId">User ID string</param>
+        /// <returns>Next episode to watch, or null if none found</returns>
         public Episode GetRandomNextEpisode(string userId)
         {
             try

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NextEpisodePlugin")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+54d2c696a1daa5a73ff38063b4e42c8ef47530fe")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc69f89d7dd8ba5b9d4af70c92e16f9b5477f347")]
 [assembly: System.Reflection.AssemblyProductAttribute("NextEpisodePlugin")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Next Episode Plugin")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -11,6 +11,9 @@ using NextEpisodePlugin.Services;
 
 namespace NextEpisodePlugin.Api
 {
+    /// <summary>
+    /// API endpoint for random next episode functionality
+    /// </summary>
     [Route("/NextEpisodePlugin/random", "GET", Summary = "Gets a random next episode")]
     [Route("/NextEpisodePlugin/random", "POST", Summary = "Plays a random next episode")]
     public class GetRandomNextEpisode : IReturn<NextEpisodeResponse>
@@ -22,6 +25,9 @@ namespace NextEpisodePlugin.Api
         public bool Play { get; set; }
     }
 
+    /// <summary>
+    /// Response object for next episode API calls
+    /// </summary>
     public class NextEpisodeResponse
     {
         public string EpisodeId { get; set; }
@@ -33,6 +39,9 @@ namespace NextEpisodePlugin.Api
         public string Message { get; set; }
     }
 
+    /// <summary>
+    /// REST API controller for next episode functionality
+    /// </summary>
     public class NextEpisodeController : IService
     {
         private readonly ILibraryManager _libraryManager;

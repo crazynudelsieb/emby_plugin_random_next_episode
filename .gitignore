@@ -1,0 +1,78 @@
+# Build outputs
+bin/
+obj/
+*.dll
+*.pdb
+*.deps.json
+
+# .NET
+*.user
+*.suo
+*.cache
+*.docstates
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Bb]uild[Ll]og.*
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.lib
+*.sbr
+*.exe
+*.pdb
+*.user
+*.aps
+*.pch
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+[Bb]in
+[Dd]ebug*/
+*.vshost.*
+*.pidb
+*.userprefs
+
+# Visual Studio
+.vs/
+*.sln
+*.vcxproj*
+*.csproj.user
+
+# NuGet
+packages/
+*.nupkg
+nuget.config
+
+# Claude Code specific
+.claude/
+CLAUDE.md
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*~
+
+# Logs
+*.log

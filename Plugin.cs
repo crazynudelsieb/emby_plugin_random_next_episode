@@ -6,6 +6,9 @@ using NextEpisodePlugin.Configuration;
 
 namespace NextEpisodePlugin
 {
+    /// <summary>
+    /// Main plugin class for Next Episode functionality
+    /// </summary>
     public class Plugin : BasePlugin<PluginConfiguration>
     {
         public override string Name => "Next Episode Plugin";

@@ -14,7 +14,6 @@
         "outputPath": "/mnt/c/git/emby_tv_plugin/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/mnt/c/git/emby_tv_plugin/nuget.config",
           "/home/adm_dondoe/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
